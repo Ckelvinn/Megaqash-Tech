@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "username": "felix_omondi",
+      "fullName": "Felix Omondi",
+      "phone": "0712345678",
+      "password": "password123",
+      "role": "user",
+      "isActivated": true,
+      "activationStatus": "approved",
+      "mpesaCode": "SDF4902KLO",
+      "activationSubmittedAt": "2026-10-20T08:15:00Z",
+      "availableBalance": 850,
+      "totalEarnings": 2600,
+      "registeredAt": "2026-10-20T08:00:00Z",
+      "referralBonusEarned": 600
+    },
+    {
+      "id": "user-002",
+      "username": "mary_wanjiku",
+      "fullName": "Mary Wanjiku Kamau",
+      "phone": "0722998877",
+      "password": "password123",
+      "role": "user",
+      "isActivated": true,
+      "activationStatus": "approved",
+      "mpesaCode": "QK891048XA",
+      "activationSubmittedAt": "2026-10-21T10:30:00Z",
+      "availableBalance": 400,
+      "totalEarnings": 1500,
+      "referrerUsername": "felix_omondi",
+      "registeredAt": "2026-10-21T10:00:00Z",
+      "referralBonusEarned": 300
+    },
+    {
+      "id": "user-003",
+      "username": "samuel_kiprono",
+      "fullName": "Samuel Kiprono",
+      "phone": "0708554433",
+      "password": "password123",
+      "role": "user",
+      "isActivated": false,
+      "activationStatus": "pending",
+      "mpesaCode": "TG992810PL",
+      "activationSubmittedAt": "2026-10-24T14:20:00Z",
+      "availableBalance": 0,
+      "totalEarnings": 0,
+      "referrerUsername": "felix_omondi",
+      "registeredAt": "2026-10-24T14:10:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "blog-1",
+      "type": "blog",
+      "title": "Monetizing High-Value Tech & Copywriting Skills in East Africa",
+      "description": "Explore proven strategies for local freelancers to charge competitive rates on global remote work platforms, manage client deliverables, and receive payments seamlessly.",
+      "reward": 100,
+      "readingTimeMinutes": 4,
+      "blogOutline": [
+        "Identifying high-income digital service niches in Kenya",
+        "Pitching international clients with verifiable work samples",
+        "Optimizing local remittance and mobile money workflows",
+        "Building long-term retainer agreements with startups"
+      ]
+    },
+    {
+      "id": "blog-2",
+      "type": "blog",
+      "title": "Digital Content Marketing & Viral Distribution Blueprint",
+      "description": "Learn how African content creators and e-commerce entrepreneurs leverage TikTok, WhatsApp Channels, and search algorithms to drive consistent traffic and sales.",
+      "reward": 100,
+      "readingTimeMinutes": 5,
+      "blogOutline": [
+        "Hook formulas that stop endless social media scrolling",
+        "Repurposing one research blog into 5 micro-assets",
+        "Harnessing localized community trust for peer-to-peer marketing"
+      ]
+    },
+    {
+      "id": "blog-3",
+      "type": "blog",
+      "title": "Financial Independence: Strategic Micro-Savings & M-Pesa Cashflows",
+      "description": "A practical guide on how young earners can channel daily freelance earnings into disciplined digital liquidity funds, SACCO dividends, and money market growth.",
+      "reward": 100,
+      "readingTimeMinutes": 4,
+      "blogOutline": [
+        "Separating operational working capital from discretionary spend",
+        "Automated daily savings using mobile banking buckets",
+        "Shielding freelance earnings from inflation through sound assets"
+      ]
+    },
+    {
+      "id": "academic-1",
+      "type": "academic",
+      "title": "Open Academic & Research Blog Submission",
+      "description": "Write an original, well-structured academic blog or analytical essay on any topic of your choice. If approved by the admin, you will get paid KSh 100!",
+      "reward": 100
+    },
+    {
+      "id": "trans-1",
+      "type": "translation",
+      "title": "Translation Task #1 (English to Kiswahili)",
+      "description": "Translate this financial inclusion paragraph into natural, fluent Kiswahili.",
+      "reward": 5,
+      "sourceLanguage": "English",
+      "targetLanguage": "Kiswahili",
+      "sourceText": "The rapid expansion of mobile banking has empowered millions of micro-entrepreneurs across East Africa with immediate access to working capital and savings products."
+    },
+    {
+      "id": "trans-2",
+      "type": "translation",
+      "title": "Translation Task #2 (Kiswahili to English)",
+      "description": "Translate this community enterprise statement into accurate, professional English.",
+      "reward": 5,
+      "sourceLanguage": "Kiswahili",
+      "targetLanguage": "English",
+      "sourceText": "Vijana wengi sasa wanatumia mtandao kujifunza ujuzi wa kidijitali, kupata wateja wapya, na kuboresha maisha ya jamii zao bila kutegemea ajira za kawaida."
+    },
+    {
+      "id": "trans-3",
+      "type": "translation",
+      "title": "Translation Task #3 (French to English)",
+      "description": "Translate this trade bulletin excerpt from French into clear English.",
+      "reward": 5,
+      "sourceLanguage": "French",
+      "targetLanguage": "English",
+      "sourceText": "L'intégration des plateformes de paiement électronique accélère les échanges commerciaux régionaux et réduit significativement les coûts de transaction pour les petites entreprises."
+    },
+    {
+      "id": "trans-4",
+      "type": "translation",
+      "title": "Translation Task #4 (English to Kiswahili)",
+      "description": "Translate this technology literacy guidance into idiomatic Kiswahili.",
+      "reward": 5,
+      "sourceLanguage": "English",
+      "targetLanguage": "Kiswahili",
+      "sourceText": "Transparent reporting and honest customer communication are the primary pillars of enduring commercial trust in digital platforms."
+    },
+    {
+      "id": "trans-5",
+      "type": "translation",
+      "title": "Translation Task #5 (Spanish to English)",
+      "description": "Translate this remote work testimonial from Spanish into English.",
+      "reward": 5,
+      "sourceLanguage": "Spanish",
+      "targetLanguage": "English",
+      "sourceText": "La flexibilidad del trabajo digital permite a los jóvenes colaborar con organizaciones globales mientras contribuyen activamente a la economía de sus comunidades locales."
+    },
+    {
+      "id": "trivia-1",
+      "type": "trivia",
+      "title": "Trivia Question #1: National Heritage",
+      "description": "Answer this history and geography question correctly to earn your reward.",
+      "reward": 5,
+      "question": "In which year did Kenya gain full national independence (Madaraka / Jamhuri)?",
+      "options": [
+        "1958",
+        "1963",
+        "1970",
+        "1982"
+      ]
+    },
+    {
+      "id": "trivia-2",
+      "type": "trivia",
+      "title": "Trivia Question #2: Currency & Commerce",
+      "description": "Answer this economic trivia accurately.",
+      "reward": 5,
+      "question": "What is the full official ISO currency code and common symbol for the Kenyan Shilling?",
+      "options": [
+        "KES / KSh",
+        "KYS / Sh",
+        "EA-KES / Ks",
+        "KNC / K-Coin"
+      ]
+    },
+    {
+      "id": "trivia-3",
+      "type": "trivia",
+      "title": "Trivia Question #3: Web Security",
+      "description": "Test your internet security knowledge.",
+      "reward": 5,
+      "question": "In modern secure web protocols, what does the \"S\" in HTTPS officially represent?",
+      "options": [
+        "Simple",
+        "Speed",
+        "Secure",
+        "Server"
+      ]
+    }
+  ],
+  "submissions": [],
+  "hallOfFame": [
+    {
+      "id": "hof-1",
+      "userName": "Mary Wanjiku Kamau",
+      "userPhone": "0722***877",
+      "amountCredited": 100,
+      "achievementTitle": "Academic Essay: Scaling Agritech Logistics in Central Kenya",
+      "congratsMessage": "Congratulations to Mary Wanjiku (0722***877) for having her academic blog approved! Awarded KSh 100.",
+      "date": "2026-10-23",
+      "category": "academic"
+    },
+    {
+      "id": "hof-2",
+      "userName": "Felix Omondi",
+      "userPhone": "0712***678",
+      "amountCredited": 100,
+      "achievementTitle": "Blog Review: Freelance Economy Mastery in Nairobi",
+      "congratsMessage": "Congratulations to Felix Omondi (0712***678) on his approved featured blog review! Credited KSh 100.",
+      "date": "2026-10-22",
+      "category": "blog"
+    }
+  ],
+  "withdrawals": []
+}
